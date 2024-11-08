@@ -441,7 +441,7 @@ footer svg {
   text-align: center;
 }
 
-.projects-section .text-main{
+.projects-section .text-main {
   color: var(--textsecondary);
 }
 
@@ -449,7 +449,6 @@ footer svg {
   position: relative;
   margin-bottom: 40px;
 }
-
 
 .underline {
   width: 50px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmat Fauzi | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="responsive.css" /> -->
   </head>
   <body>
     <header>
@@ -227,12 +228,10 @@
           <div class="text-main">CONTACT</div>
           <div class="underline"></div>
         </div>
-        <form>
-          <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Nama" required /><textarea
-            placeholder="Message"
-            required
-          ></textarea>
+        <form id="contactForm">
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="text" id="name" placeholder="Nama" required />
+          <textarea id="message" placeholder="Message" required></textarea>
           <button type="submit">Kirim &#9654;</button>
         </form>
       </div>

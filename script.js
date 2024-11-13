@@ -8,12 +8,11 @@ tombol.addEventListener("click", () => {
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); // Mencegah form dikirim secara default
+    event.preventDefault(); 
 
     var name = document.getElementById("name").value;
     var message = document.getElementById("message").value;
 
-    // Menampilkan popup alert dengan pesan
     alert("Terima kasih " + name + ", pesan sudah terkirim.");
 
     // Reset form
